@@ -1,0 +1,8 @@
+﻿{
+  "animals": [ "ant", "bat", "bear", "bee", "bird", "butterfly", "camel", "cat", "chicken", "cow", "crab", "deer", "dog", "dolphin", "dragon", "dragonfly", "eagle", "fish", "fox", "frog", "giraffe", "hippo", "horse", "hyena", "kangaroo", "koala", "ladybug", "lion", "lizard", "llama", "monkey", "ostrich", "panda", "penguin", "pig", "rabbit", "raccoon", "rat", "seagull", "sheep", "snake", "tiger", "whale" ],
+  "natural_world": [ "cave", "cloud", "desert", "dirt", "fire", "flower", "gem", "glacier", "grass", "lightning", "mountain", "oasis", "ocean", "rainbow", "river", "rock", "seed", "snow", "sun", "tree" ],
+  "fruit/vegetables": [ "apple", "asparagus", "avocado", "banana", "bean", "blueberry", "broccoli", "carrot", "cherry", "coconut", "cucumber", "eggplant", "grape", "kiwi", "lemon", "lettuce", "mango", "mushroom", "onion", "orange", "peach", "pear", "pineapple", "potato", "pumpkin", "spinach", "strawberry", "tomato", "watermelon" ],
+  "body_parts": [ "arm", "bone", "brain", "chin", "eye", "finger", "foot", "hair", "hand", "heart", "leg", "lung", "mouth", "nerve", "nose", "skin", "stomach" ],
+  "artificial": [ "backpack", "ball", "basket", "bicycle", "book", "bridge", "cake", "camera", "car", "castle", "chain", "computer", "dam", "fork", "gun", "knife", "ladder", "lighthouse", "map", "paper", "phone", "plane", "radio", "rug", "satellite", "scissors", "shovel", "spear", "spoon", "statue", "sword", "wheel" ],
+  "occupations": [ "architect", "artist", "athlete", "carpenter", "chef", "doctor", "farmer", "firefighter", "gardener", "janitor", "lawyer", "miner", "pirate", "plumber", "police", "politician", "programmer", "scientist", "soldier", "student", "teacher" ]
+}

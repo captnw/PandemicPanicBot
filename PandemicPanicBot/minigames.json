@@ -1,0 +1,26 @@
+﻿[
+  {
+    "Name": "Closer or Farther",
+    "Description": "In this game, the Head Scientist knows the word.\nOther scientists may ask questions to which the head scientist can only indicate whether they are closer or further from the word, in voice call or chat. (ex: yes/no/hotter/colder).",
+    "UninformedInstructions": "Ask (you can use voice or text chat) the head scientist in your team 'yes or no' questions to clarify the word.\nOnce you have a guess, submit your answer with '!c **ANSWER**' in the chat.",
+    "InformedInstructions": "You're the head scientist! Refer to the word above to answer (you can use voice or text chat) your team's questions. Remember, you should respond with short answers, like 'closer', 'yes', or 'sort of'.",
+    "WhoHasInfo": 0,
+    "TypeOfInfo": 1
+  },
+  {
+    "Name": "Point and Rant",
+    "Description": "In this game, the Head Scientist is given an image.\nThey must then try to explain to the other scientists (via voice call or chat) what the image is without using the word in the image or its synonyms.",
+    "UninformedInstructions": "Based on the description the Head Scientist gives you, try to guess the word.\nYou cannot speak (or use chat to ask questions) during this round!\nOnce you have a guess, submit your answer with '!c **ANSWER**' in the chat.",
+    "InformedInstructions": "You're the head scientist!\nYou must describe (you can use voice or text chat) the image above without saying what it is directly.",
+    "WhoHasInfo": 0,
+    "TypeOfInfo": 2
+  },
+  {
+    "Name": "Word Relay",
+    "Description": "In this game, everyone except the Head Scientist knows the word.\nThe regular scientists must explain the word to the Head Scientist, however, as team, they must say only one word at a time (either in voice call or chat).",
+    "UninformedInstructions": "You're the head scientist!\nYour job is to try to guess (you can use voice or text chat) what the other scientists are telling you.\nOnce you have a guess, submit your answer with '!c **ANSWER**' in the chat.",
+    "InformedInstructions": "You're a regular scientist who knows the word!\nWork together with the other scientists and try to explain (you can use voice or text chat) what the word is.\nYou may only say one word before you must wait for everyone else to say a word.",
+    "WhoHasInfo": 1,
+    "TypeOfInfo": 1
+  }
+]
