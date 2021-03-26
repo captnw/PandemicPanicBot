@@ -55,6 +55,7 @@ namespace PandemicPanicBot.Commands
         */
 
         /*
+        // WARNING: this commmand may break things
         [Command("Join")]
         [Description("Join a queue for a PanicPandemic game")]
         public async Task Join(CommandContext ctx)
@@ -73,6 +74,7 @@ namespace PandemicPanicBot.Commands
         */
 
         /*
+        // WARNING: this commmand may break things
         [Command("Leave")]
         [Description("Leave a queue for a PanicPandemic game")]
         public async Task Leave(CommandContext ctx)
@@ -149,7 +151,6 @@ namespace PandemicPanicBot.Commands
             });
         }
 
-        /*
         [Command("checkv")]
         [Description("DEBUG: check whoever exists in a voice channel")]
         public async Task CheckVoice(CommandContext ctx)
@@ -173,9 +174,7 @@ namespace PandemicPanicBot.Commands
             });
             //await ctx.Member.SendMessageAsync("bruh this is a direct message");
         }
-        */
 
-        /*
         [Command("movev")]
         [Description("DEBUG: create a TEMP voice channel (testing) and move any users in voice channel into it")]
         public async Task MoveV(CommandContext ctx)
@@ -204,7 +203,6 @@ namespace PandemicPanicBot.Commands
                 }
             });
         }
-        */
 
         [Command("D_deletev")]
         [Description("DEBUG: delete all voice channels that start with TEMP")]

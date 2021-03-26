@@ -16,8 +16,11 @@ namespace PandemicPanicBot
     static class GLStaticWrapper
     {
         // Only one current game at a time.
-        // It's in a static function because I can't figure out
-        // how to invoke GLClass in the Bot class otherwise...
+        // This is a monostate function b/c the bot can only send so many messages
+        // at once before the rate of messages it sends will get throttled (see DsharpPlus rate limit compliancy)
+        //
+        // The game itself relies upon the bot being able to send many messages at once (distributing the information or just responding
+        // to users), so having multiple instances of the game running is not currently feasible with the architecture we have at the moment.
         public static GameLogic GLClass;
     }
 
@@ -68,12 +71,12 @@ namespace PandemicPanicBot
             Commands = Client.UseCommandsNext(commandsConfig);
 
             // Register commands
-            Commands.RegisterCommands<TestCommands>(); // used for debugging + experimental purposes
+            //Commands.RegisterCommands<TestCommands>(); // used for debugging + experimental purposes
             Commands.RegisterCommands<GameCommands>();
 
             await Client.ConnectAsync();
 
-            // The await below, will keep the Bot on forever.
+            // The await below, will keep the Bot on as long as the program is running.
             await Task.Delay(-1);
         }
 

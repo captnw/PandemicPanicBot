@@ -22,7 +22,7 @@ namespace PandemicPanicBot.Commands
                     Console.WriteLine($"Voice channel ({d.Users.Count()} members): {d.Name}");
 
                     // If this voice channel has 4 or more users, then invoke PlayGame
-                    if (d.Users.Count() >= 2)
+                    if (d.Users.Count() >= 4)
                     {
                         Console.WriteLine("There are 4 or more players, can start game.");
                         ChosenChannel = d;

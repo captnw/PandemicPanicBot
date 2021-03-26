@@ -1,0 +1,4 @@
+The game has since been updated to exclude the verb and adjective themes since they were deemed too difficult to guess during playtesting.
+Just assume every round is a noun round, and the type of noun (animals, food, etc) may be different instead. 
+
+Everything else in PandemicPanicDraft.png and roundExampleDraft.png is the same.
