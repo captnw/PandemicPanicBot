@@ -1,5 +1,5 @@
-[botIcon]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "The PandemicPanic bot icon"
-[botPermission]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "The permissions you need to enable for PandemicPanicBot"
+[botIcon]: InfoAboutProject/PandemicPanicBotLogo.png "The PandemicPanic bot icon"
+[botPermission]: InfoAboutProject/BotPermissions.JPG "The permissions you need to enable for PandemicPanicBot"
 
 # PandemicPanicBot
 
@@ -7,7 +7,7 @@
 
 A multiplayer, monostate game hosting Discord bot created for ICS 163 project Fall 2020.
 
-#####Contributers 
+## Contributers 
 William Nguyen (@captnw), Sage Mahmud, Ah Lon Sin (@ahls)
 
 ## What is PandemicPanic?
