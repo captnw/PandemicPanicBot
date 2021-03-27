@@ -31,8 +31,8 @@ This bot will ignore you if you direct message it, although it will send informa
 1. Download repo.
 2. Open solution with visual studio.
 3. Configure the bot by replacing YOUR_DISCORD_TOKEN_HERE in config.json with your Discord bot token.
-..1. If you don't have a Discord bot token, you may have to set up a Discord bot, please check out this useful link to learn how to set up a Discord bot and retrieve its token (https://www.writebots.com/discord-bot-token/)
-..2. When you configure the Bot permissions, be sure to enable "send messages", "attach files", "read message history", and "add reactions".
+   - If you don't have a Discord bot token, you may have to set up a Discord bot, please check out this useful link to learn how to set up a Discord bot and retrieve its token (https://www.writebots.com/discord-bot-token/)
+   - When you configure the Bot permissions, be sure to enable "send messages", "attach files", "read message history", and "add reactions".
 4. **OPTIONAL:** set the bot icon with the PandemicPanicBotLogo.png found in the "InfoAboutProject" folder
 
 ![Enable "Send Messages", "Attach files", "Read Message History", and "Add Reactions" for the bot][botPermission]
