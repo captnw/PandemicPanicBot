@@ -15,7 +15,7 @@ A game intended for audiences of at least **4** people and at most **10** people
 
 In short, it's a game where two teams work against each other to guess a word first in a 2-3 round game where each team would guess a word. Every round there would be a person or person(s) that would know the word, and depending on the minigame, they must convey the information by explaining the object or answering questions. The team that guesses **2** words first correctly wins the game.
 
-Lorewise, it's basically two scientist groups competiting against each other to discover a cure for the virus ravaging the world.
+Lorewise, it's basically two scientist groups competing against each other to discover a cure for the virus ravaging the world.
 
 **tl;dr**: it's like a jackbox's game
 
